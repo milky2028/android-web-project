@@ -1,8 +1,21 @@
 # android-web-project
-This is a webpage that I wholly created from my Android phone. Why did I do this? I'm not 100% sure, but I did it nonetheless.
 
-I think this will probably end up as my portfolio site, but who knows. I'm trying to imagine a use case for this. I'll probably write out many of the advantages/disadvantages.
+> A vue.js peohect written on my phone
 
-How was this achieved?
+## Build Setup
 
-The big one is Termux. Termux is a Linux enviornment enulator for Android. From there, many of the tools used in typical NodeJS development are available.
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
